@@ -1,0 +1,18 @@
+{
+  "name": "ai-fomo-radar",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Daily bilingual (Hebrew/English) AI news front page for Uriel Mondrowicz",
+  "type": "module",
+  "scripts": {
+    "validate": "node scripts/build.mjs --validate-only",
+    "build": "node scripts/build.mjs",
+    "check-links": "node scripts/check-links.mjs",
+    "serve": "python3 -m http.server 8080 --directory dist",
+    "deploy": "bash scripts/deploy.sh",
+    "screenshots": "node scripts/screenshots.mjs"
+  },
+  "devDependencies": {
+    "playwright-core": "^1.0.0"
+  }
+}
