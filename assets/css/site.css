@@ -179,3 +179,7 @@ bdi code { unicode-bidi: isolate; }
 /* secondary photos: consistent newspaper crop */
 .fig:not(.fig--lead) img { aspect-ratio: 3 / 2; object-fit: cover; object-position: 50% 25%; }
 .fig--lead img { aspect-ratio: 16 / 10; object-fit: cover; object-position: 50% 45%; }
+
+/* footer rule aligned with the page column */
+.footer { border-top: 0; }
+.footer > p:first-child { border-top: 3px double var(--rule); padding-top: 0.9rem; }
