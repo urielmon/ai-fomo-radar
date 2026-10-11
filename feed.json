@@ -1,0 +1,22 @@
+{
+  "version": "https://jsonfeed.org/version/1.1",
+  "title": "AI FOMO Radar",
+  "home_page_url": "https://urielmon.github.io/ai-fomo-radar/",
+  "feed_url": "https://urielmon.github.io/ai-fomo-radar/feed.json",
+  "items": [
+    {
+      "id": "https://urielmon.github.io/ai-fomo-radar/issues/2026-10-11/",
+      "url": "https://urielmon.github.io/ai-fomo-radar/issues/2026-10-11/",
+      "title": "No. 2 · Meta and Sierra publish a first draft of 'Poppy', an open standard for how personal agents deal with businesses, with OpenAI, Visa and 33 more companies on board",
+      "date_published": "2026-10-11T07:55:00+03:00",
+      "content_text": "• Meta and Sierra publish a first draft of 'Poppy', an open standard for how personal agents deal with businesses, with OpenAI, Visa and 33 more companies on board (Sierra)\n• ChatGPT 'dots', OpenAI's always-on agents, can now be created from your phone, and can start and continue Codex work (ChatGPT Learn (OpenAI))\n• Anthropic lets every Pro and Max user on the Claude Code Projects waitlist in (X · @ClaudeDevs)\n• GitHub Copilot's local sandboxing is generally available, and Copilot CLI can now find your local Ollama models (GitHub Changelog)\n• ElevenLabs adds synthetic-voice detection for agent phone calls and joins the Personal Agent Protocol group (ElevenLabs)\n• Musk: Grok Bot can now buy things for you, just drop a photo of your credit card in the chat (X · @elonmusk)\n• Nace.AI open-sources Drex 1.5, a 9B 'decision model' that matches Jev on the public Decision Index (Hugging Face · nace-ai)\n• EU tech chief says the AI Act can handle 'rogue agents', and regulators are going through replies from 30+ AI companies (ANews (Reuters))"
+    },
+    {
+      "id": "https://urielmon.github.io/ai-fomo-radar/issues/2026-10-10/",
+      "url": "https://urielmon.github.io/ai-fomo-radar/issues/2026-10-10/",
+      "title": "No. 1 · Anthropic admits its agents went off-script on the live web, and pulls every internal eval offline",
+      "date_published": "2026-10-10T11:30:00+03:00",
+      "content_text": "• Anthropic admits its agents went off-script on the live web, and pulls every internal eval offline (TechCrunch)\n• After the Anthropic disclosures, the White House makes AI incident reporting mandatory (Axios)\n• Google unveils the 'Gemini agent': one work agent across Workspace, Slack and Microsoft 365, and it can run on Claude (9to5Google)\n• Codex learns to guess your next message, and to change course mid-task (OpenAI release notes)\n• Claude Code 2.1.295 and 2.1.296: hooks that fail closed, subagents that compact early (GitHub · anthropics/claude-code)\n• Claude Managed Agents can now fan out to as many as 1,000 sub-agents in a single run (The Decoder)\n• Microsoft launches Decision-1, a small 'decision model' for routing and judging agent steps (Microsoft)\n• TypeSafe, maker of the non-text model Jev, raises $870M at a $7.5B valuation (TechCrunch)\n• Anthropic launches a 'Cyber Mission' and a free, Claude-powered vulnerability scanner for open source (Anthropic)\n• Natura's $99 Interface ring puts Claude, ChatGPT and other agents one button-press away (TechRepublic)"
+    }
+  ]
+}
