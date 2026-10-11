@@ -1,0 +1,318 @@
+{
+  "date": "2026-10-11",
+  "issue_number": 2,
+  "generated_at": "2026-10-11T07:55:00+03:00",
+  "window": {
+    "start": "2026-10-09T07:45:00+03:00",
+    "end": "2026-10-11T07:45:00+03:00",
+    "hours": 48,
+    "note": {
+      "en": "It's the weekend, so the usual 24-hour window was thin. This issue covers 48 hours: Friday 9 Oct, 07:45 to Sunday 11 Oct, 07:45 (Israel time). Stories already in the previous issue are not repeated.",
+      "he": "סוף שבוע, וחלון של 24 שעות יצא דליל. לכן הגיליון הזה מכסה 48 שעות: מיום שישי, 9 באוקטובר, 07:45, ועד יום ראשון, 11 באוקטובר, 07:45 (שעון ישראל). כתבות שכבר הופיעו בגיליון הקודם לא חוזרות כאן."
+    }
+  },
+  "stories": [
+    {
+      "id": "personal-agent-protocol-draft",
+      "lead": true,
+      "kicker": {
+        "en": "Personal agents",
+        "he": "סוכנים אישיים"
+      },
+      "headline": {
+        "en": "Meta and Sierra publish a first draft of 'Poppy', an open standard for how personal agents deal with businesses, with OpenAI, Visa and 33 more companies on board",
+        "he": "Meta ו-Sierra מפרסמות טיוטה ראשונה של 'Poppy', תקן פתוח לאופן שבו סוכנים אישיים עובדים מול עסקים, ו-OpenAI, ‏Visa ועוד 33 חברות מצטרפות לתהליך"
+      },
+      "why": {
+        "en": "Instead of an agent signing in as you and clicking through pages built for humans, a company publishes one file (`/.well-known/poppy.json`), the agent identifies itself, and you grant scoped access through OAuth, over the website, APIs (OpenAPI, MCP) or the company's own agent. If you want agents that book, return and renew things for you, this is the plumbing that lets them do it without impersonating you. It is a v0.1 draft under Apache 2.0, with workshops and a reference implementation promised within a month.",
+        "he": "במקום שסוכן יתחבר בשמך וילחץ בין דפים שנבנו לבני אדם, החברה מפרסמת קובץ אחד (`/.well-known/poppy.json`), הסוכן מזדהה, ואתה נותן גישה מוגבלת דרך OAuth, מעל האתר, ממשקי API (‏OpenAPI, ‏MCP) או הסוכן של החברה עצמה. אם אתה רוצה סוכנים שמזמינים, מחזירים ומחדשים דברים בשבילך, זו התשתית שמאפשרת להם לעשות את זה בלי להתחזות אליך. זו טיוטת v0.1 ברישיון Apache 2.0, ובחודש הקרוב מובטחים סדנאות ומימוש ייחוס."
+      },
+      "url": "https://sierra.ai/blog/poppy",
+      "source": "Sierra",
+      "published": "2026-10-09T19:56:06Z",
+      "also": [
+        {
+          "label": {
+            "en": "Draft specification",
+            "he": "הטיוטה של התקן"
+          },
+          "url": "https://personalagentprotocol.org/docs/spec"
+        },
+        {
+          "label": {
+            "en": "Announcement (Tuesday)",
+            "he": "ההכרזה ביום שלישי"
+          },
+          "url": "https://sierra.ai/blog/introducing-personal-agent-protocol"
+        }
+      ],
+      "image": {
+        "src": "assets/img/2026-10-11/personal-agent-protocol.jpg",
+        "credit": {
+          "en": "Image: Sierra (header of the announcement post)",
+          "he": "תמונה: Sierra (כותרת פוסט ההכרזה)"
+        },
+        "alt": {
+          "en": "Header graphic of the Personal Agent Protocol post, listing the logos of Meta, Sierra, Stripe, Visa, OpenAI, Shopify and dozens of other partners",
+          "he": "גרפיקת הכותרת של פוסט Personal Agent Protocol, עם הלוגואים של Meta, ‏Sierra, ‏Stripe, ‏Visa, ‏OpenAI, ‏Shopify ועשרות שותפים נוספים"
+        }
+      }
+    },
+    {
+      "id": "chatgpt-dots-mobile-codex",
+      "lead": false,
+      "kicker": {
+        "en": "Agent products",
+        "he": "מוצרי סוכנים"
+      },
+      "headline": {
+        "en": "ChatGPT 'dots', OpenAI's always-on agents, can now be created from your phone, and can start and continue Codex work",
+        "he": "ה-'dots' של ChatGPT, סוכני ה-always-on של OpenAI, אפשר עכשיו ליצור מהטלפון, והם יודעים להפעיל ולהמשיך עבודה ב-Codex"
+      },
+      "why": {
+        "en": "A dot has its own cloud computer and browser and keeps working when your devices are off. It can now open Codex tasks on a connected computer, continue existing local Codex threads and edit ChatGPT Work automations. Availability per OpenAI's docs: Pro users outside the EEA, UK and Switzerland, so Israel qualifies. Codex work a dot starts still counts against your Codex limits.",
+        "he": "ל-dot יש מחשב ודפדפן משלו בענן, והוא ממשיך לעבוד גם כשהמכשירים שלך כבויים. עכשיו הוא יכול לפתוח משימות Codex במחשב מחובר, להמשיך שרשורי Codex מקומיים קיימים ולערוך אוטומציות של ChatGPT Work. הזמינות לפי התיעוד של OpenAI: מנויי Pro מחוץ ל-EEA, לבריטניה ולשווייץ, כלומר ישראל בפנים. עבודת Codex שה-dot מפעיל עדיין נספרת במכסות ה-Codex שלך."
+      },
+      "url": "https://learn.chatgpt.com/docs/whats-new/dots-october-9-2026",
+      "source": "ChatGPT Learn (OpenAI)",
+      "published": "2026-10-09",
+      "also": [
+        {
+          "label": {
+            "en": "Meet dots",
+            "he": "הכירו את ה-dots"
+          },
+          "url": "https://learn.chatgpt.com/docs/dots"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "claude-code-projects-waitlist",
+      "lead": false,
+      "kicker": {
+        "en": "Claude Code",
+        "he": "Claude Code"
+      },
+      "headline": {
+        "en": "Anthropic lets every Pro and Max user on the Claude Code Projects waitlist in",
+        "he": "Anthropic מכניסה את כל משתמשי Pro ו-Max מרשימת ההמתנה של Claude Code Projects"
+      },
+      "why": {
+        "en": "A project is one coordinating chat that runs each task as its own parallel cloud thread, each on its own branch with tests and pull requests, and keeps going after you close the laptop. Steer it from your phone, but note the limits: threads burn plan usage fast, there is a cap of 200 new threads a day, cloud threads need GitHub.com repos, and running threads on your own machine is only promised 'very soon'.",
+        "he": "פרויקט הוא צ'אט מתאם אחד שמריץ כל משימה כשרשור ענן מקביל משלה, כל אחד על ענף משלו עם בדיקות ו-pull requests, וממשיך לעבוד גם אחרי שסגרת את המחשב. אפשר לכוון אותו מהטלפון, אבל יש מגבלות: שרשורים שורפים את המכסה מהר, יש תקרה של 200 שרשורים חדשים ביום, שרשורי ענן דורשים מאגרי GitHub.com, וריצה של שרשורים על המחשב שלך מובטחת רק 'בקרוב מאוד'."
+      },
+      "url": "https://x.com/ClaudeDevs/status/2108621476538781878",
+      "source": "X · @ClaudeDevs",
+      "published": "2026-10-09T18:11:50Z",
+      "also": [
+        {
+          "label": {
+            "en": "Anthropic's launch post",
+            "he": "פוסט ההשקה של Anthropic"
+          },
+          "url": "https://claude.com/blog/projects-redesigned"
+        }
+      ],
+      "image": {
+        "src": "assets/img/2026-10-11/claude-code-projects.jpg",
+        "credit": {
+          "en": "Image: Anthropic product screenshot, via The Verge (September launch coverage)",
+          "he": "תמונה: צילום מסך של המוצר מאת Anthropic, באמצעות The Verge (סיקור ההשקה בספטמבר)"
+        },
+        "alt": {
+          "en": "Screenshot of a Claude Code project: a coordinator chat on the left and a thread list with Waiting on you, Working and Idle on the right",
+          "he": "צילום מסך של פרויקט ב-Claude Code: צ'אט מתאם משמאל, ורשימת שרשורים מימין לפי 'ממתין לך', 'בעבודה' ו'סרק'"
+        }
+      }
+    },
+    {
+      "id": "github-copilot-local-sandboxing",
+      "lead": false,
+      "kicker": {
+        "en": "Coding agents",
+        "he": "סוכני קוד"
+      },
+      "headline": {
+        "en": "GitHub Copilot's local sandboxing is generally available, and Copilot CLI can now find your local Ollama models",
+        "he": "ארגז החול המקומי של GitHub Copilot זמין לכולם, וה-CLI של Copilot יודע עכשיו למצוא מודלי Ollama מקומיים"
+      },
+      "why": {
+        "en": "Sandboxing limits what an agent can reach (files, network, credentials) in Copilot CLI, the Copilot app and VS Code Agent Host sessions, at no extra cost: a practical answer to this week's 'agents went off-script' stories. Typing `/model` now lists models from a running Ollama next to the cloud ones, and VS Code 1.141 shows agent sessions side by side.",
+        "he": "ארגז החול מגביל למה סוכן יכול להגיע (קבצים, רשת, אישורי גישה) ב-Copilot CLI, באפליקציית Copilot ובסשנים של VS Code Agent Host, בלי תוספת תשלום: תשובה מעשית לכתבות של השבוע על סוכנים שחרגו מהתסריט. הפקודה `/model` מציגה עכשיו מודלים מ-Ollama שרץ אצלך לצד מודלי הענן, וב-VS Code 1.141 אפשר לראות סשנים של סוכנים זה לצד זה."
+      },
+      "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+      "source": "GitHub Changelog",
+      "published": "2026-10-09T22:58:23Z",
+      "also": [
+        {
+          "label": {
+            "en": "Local sandboxing GA",
+            "he": "ארגז החול המקומי זמין לכולם"
+          },
+          "url": "https://github.blog/changelog/2026-10-07-local-sandboxing-for-github-copilot-now-generally-available/"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "elevenlabs-voice-detection-pap",
+      "lead": false,
+      "kicker": {
+        "en": "Voice agents",
+        "he": "סוכני קול"
+      },
+      "headline": {
+        "en": "ElevenLabs adds synthetic-voice detection for agent phone calls and joins the Personal Agent Protocol group",
+        "he": "ElevenLabs מוסיפה זיהוי קול סינתטי לשיחות טלפון של סוכנים, ומצטרפת לקבוצת Personal Agent Protocol"
+      },
+      "why": {
+        "en": "More and more of the calls reaching businesses are personal agents or even cloned voices. The new detection tells human from AI in the first seconds of a call so a company can apply its own rules; it is enterprise-only for now, with a broader release promised later this month. If you ever let an agent phone a clinic or a support line for you, expect the other end to ask who is calling.",
+        "he": "יותר ויותר שיחות שמגיעות לעסקים הן של סוכנים אישיים, ולפעמים אפילו של קול משוכפל. הזיהוי החדש מבדיל בין אדם ל-AI בשניות הראשונות של השיחה, כדי שהחברה תפעיל את הכללים שלה; כרגע זה רק ללקוחות Enterprise, ושחרור רחב יותר מובטח בהמשך החודש. אם אי פעם תבקש מסוכן להתקשר בשמך למרפאה או לשירות לקוחות, צפה שבצד השני ישאלו מי מתקשר."
+      },
+      "url": "https://elevenlabs.io/blog/synthetic-voice-detection-and-personal-agent-protocol",
+      "source": "ElevenLabs",
+      "published": "2026-10-09T12:00:00Z",
+      "image": null
+    },
+    {
+      "id": "grok-bot-shopping",
+      "lead": false,
+      "kicker": {
+        "en": "Agent products",
+        "he": "מוצרי סוכנים"
+      },
+      "headline": {
+        "en": "Musk: Grok Bot can now buy things for you, just drop a photo of your credit card in the chat",
+        "he": "מאסק: Grok Bot יודע עכשיו לקנות בשבילך, מספיק להעלות לצ'אט תמונה של כרטיס האשראי"
+      },
+      "why": {
+        "en": "Musk says the agent then hunts for the best price and places the order, and that he bought LEGO this way. There is no official documentation yet: no word on plans, countries, spending limits or a confirmation step before checkout. Before you hand any agent a card, ask for a per-purchase approval and a spending cap.",
+        "he": "לדברי מאסק, הסוכן מחפש אז את המחיר הטוב ביותר ומבצע את ההזמנה, והוא עצמו הזמין כך לגו. עדיין אין תיעוד רשמי: לא ידוע באילו תוכניות ובאילו מדינות זה פועל, אם יש תקרת הוצאה, ואם יש שלב אישור לפני התשלום. לפני שמעבירים לסוכן כלשהו כרטיס אשראי, כדאי לדרוש אישור לכל רכישה ותקרה להוצאה."
+      },
+      "url": "https://x.com/elonmusk/status/2109027407185277123",
+      "source": "X · @elonmusk",
+      "published": "2026-10-10T21:04:52Z",
+      "also": [
+        {
+          "label": {
+            "en": "TeslaNorth report",
+            "he": "הסיקור של TeslaNorth"
+          },
+          "url": "https://teslanorth.com/2026/10/10/elon-grok-bot-shopping/"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "nace-drex-1-5-open-decision-model",
+      "lead": false,
+      "kicker": {
+        "en": "New models",
+        "he": "מודלים חדשים"
+      },
+      "headline": {
+        "en": "Nace.AI open-sources Drex 1.5, a 9B 'decision model' that matches Jev on the public Decision Index",
+        "he": "Nace.AI משחררת בקוד פתוח את Drex 1.5, 'מודל החלטות' של 9 מיליארד פרמטרים שמשתווה ל-Jev במדד ההחלטות הציבורי"
+      },
+      "why": {
+        "en": "Following yesterday's Microsoft Decision-1 and Jev: Drex scores every option with a probability in one forward pass instead of generating text. Nace's own run gives it 58.08 against Jev's 57.96, inside the board's 0.9-point tie band. The weights are on Hugging Face, about 18 GB in bf16, under a custom open-RAIL license that you should read first; a hosted version is on OpenRouter. A local candidate for the cheap router or judge in an agent loop.",
+        "he": "בהמשך ל-Decision-1 של מיקרוסופט ול-Jev מאתמול: Drex מחזיר הסתברות לכל אפשרות במעבר אחד, במקום לייצר טקסט. בהרצה של Nace עצמה הוא מקבל 58.08 מול 57.96 של Jev, בתוך טווח התיקו של 0.9 נקודות בלוח. המשקלים ב-Hugging Face, בערך 18 ג'יגה ב-bf16, ברישיון open-RAIL מותאם שכדאי לקרוא קודם; יש גם גרסה מתארחת ב-OpenRouter. מועמד מקומי לתפקיד הנתב או השופט הזול בלולאת סוכן."
+      },
+      "url": "https://huggingface.co/nace-ai/drex-v1.5",
+      "source": "Hugging Face · nace-ai",
+      "published": "2026-10-10T11:38:33Z",
+      "also": [
+        {
+          "label": {
+            "en": "Laplace Atlas report",
+            "he": "הסיקור של Laplace Atlas"
+          },
+          "url": "https://www.laplaceatlas.com/stories/nace-ai-open-sources-drex-1-5-a-9b-decision-model-that-scores-options-e88304fe"
+        },
+        {
+          "label": {
+            "en": "Drex on OpenRouter",
+            "he": "Drex ב-OpenRouter"
+          },
+          "url": "https://openrouter.ai/nace-ai/drex-v1.5"
+        }
+      ],
+      "image": null
+    },
+    {
+      "id": "eu-ai-act-rogue-agents",
+      "lead": false,
+      "kicker": {
+        "en": "Policy",
+        "he": "רגולציה"
+      },
+      "headline": {
+        "en": "EU tech chief says the AI Act can handle 'rogue agents', and regulators are going through replies from 30+ AI companies",
+        "he": "ראש מערך הטכנולוגיה של האיחוד: חוק ה-AI מסוגל להתמודד עם 'סוכנים סוררים', והרגולטורים עוברים על תשובות של יותר מ-30 חברות AI"
+      },
+      "why": {
+        "en": "After the Anthropic and OpenAI incidents, Henna Virkkunen told Reuters the Act covers a model's whole lifecycle, with risk assessments, outside experts and ongoing monitoring. Information requests went out in late August, can turn into investigations, and fines can reach 7% of global turnover. Worth knowing if your product ships agent features to European customers.",
+        "he": "אחרי התקריות ב-Anthropic וב-OpenAI, הנרה וירקונן אמרה ל-Reuters שהחוק חל על כל מחזור החיים של המודל, כולל הערכות סיכון, מומחים חיצוניים וניטור מתמשך. בקשות המידע יצאו בסוף אוגוסט, יכולות להפוך לחקירות, והקנסות יכולים להגיע ל-7% מהמחזור העולמי. טוב לדעת אם המוצר שלך מספק יכולות סוכן ללקוחות באירופה."
+      },
+      "url": "https://www.anews.com.tr/world/2026/10/09/eu-tech-chief-says-bloc-well-equipped-to-fend-off-rogue-ai-risk",
+      "source": "ANews (Reuters)",
+      "published": "2026-10-09T19:29:53Z",
+      "image": {
+        "src": "assets/img/2026-10-11/eu-ai-act-agents.jpg",
+        "credit": {
+          "en": "Image: ANews, wire photo (photographer not stated)",
+          "he": "תמונה: ANews, תמונת סוכנות (הצלם לא צוין)"
+        },
+        "alt": {
+          "en": "Photo accompanying the article: a woman speaking at a lectern in front of the EU flag",
+          "he": "התמונה שמלווה את הכתבה: אישה מדברת ליד דוכן, על רקע דגל האיחוד האירופי"
+        }
+      }
+    }
+  ],
+  "try_today": [
+    {
+      "id": "try-claude-code-projects",
+      "title": {
+        "en": "Open the Projects tab in Claude Code and give it one scoped goal",
+        "he": "פתח את לשונית Projects ב-Claude Code ותן לה מטרה אחת ממוקדת"
+      },
+      "body": {
+        "en": "On claude.ai/code or in the desktop Code tab, create a project on a GitHub.com repo with a measurable goal. Put 'propose threads first' and 'never merge without me' in the project instructions, then review the pull requests it opens. Start small: every thread is a full session.",
+        "he": "ב-claude.ai/code או בלשונית Code באפליקציית הדסקטופ, צור פרויקט על מאגר ב-GitHub.com עם מטרה שאפשר למדוד. כתוב בהוראות הפרויקט 'קודם הצע שרשורים' ו'לעולם אל תמזג בלעדיי', ואז עבור על ה-pull requests שהוא פותח. תתחיל בקטן: כל שרשור הוא סשן מלא."
+      },
+      "url": "https://claude.com/blog/projects-redesigned",
+      "source": "Claude by Anthropic",
+      "published": "2026-10-09"
+    },
+    {
+      "id": "try-copilot-cli-ollama",
+      "title": {
+        "en": "Point Copilot CLI at a local Ollama model, inside the sandbox",
+        "he": "כוון את Copilot CLI למודל Ollama מקומי, בתוך ארגז החול"
+      },
+      "body": {
+        "en": "With Ollama running, open Copilot CLI and type `/model`: your local models now appear next to the cloud ones. Run a small throwaway task with local sandboxing on and see what the agent can and cannot touch.",
+        "he": "כש-Ollama רץ, פתח את Copilot CLI והקלד `/model`: המודלים המקומיים שלך מופיעים עכשיו לצד מודלי הענן. הרץ משימת ניסיון קטנה כשארגז החול המקומי פעיל, ובדוק למה הסוכן יכול ולמה לא יכול לגעת."
+      },
+      "url": "https://github.blog/changelog/2026-10-09-github-copilot-weekly-releases-october-5/",
+      "source": "GitHub Changelog",
+      "published": "2026-10-09T22:58:23Z"
+    },
+    {
+      "id": "try-dot-codex-handoff",
+      "title": {
+        "en": "If you have ChatGPT Pro: create a dot on your phone and hand it a Codex thread",
+        "he": "אם יש לך ChatGPT Pro: צור dot בטלפון ותן לו שרשור Codex"
+      },
+      "body": {
+        "en": "Update the ChatGPT mobile app, create a dot and connect your computer in the desktop app. Then ask it to continue one existing local Codex thread and report back. Tell it up front to show you drafts before it sends anything.",
+        "he": "עדכן את אפליקציית ChatGPT לנייד, צור dot וחבר את המחשב שלך באפליקציית הדסקטופ. אחר כך בקש ממנו להמשיך שרשור Codex מקומי קיים ולדווח לך. אמור לו מראש להראות לך טיוטות לפני ששולח משהו."
+      },
+      "url": "https://learn.chatgpt.com/docs/dots",
+      "source": "ChatGPT Learn (OpenAI)",
+      "published": "2026-10-09"
+    }
+  ]
+}
